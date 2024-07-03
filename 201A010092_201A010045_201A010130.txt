@@ -6,6 +6,8 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>hello thầy</h1>
+    <h1>Trần Đức Dương 201A010092 ducduong387@gmail.com</h1>
+    <h1>Nguyễn Văn Tình 201A010045</h1>
+    <h1>Nguyễn Chí Nghĩa 201A010130</h1>
   </body>
 </html>
