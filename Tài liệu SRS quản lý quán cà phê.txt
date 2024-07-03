@@ -1,0 +1,74 @@
+1. Giới Thiệu
+1.1 Mục Tiêu
+Dự án quán cà phê tập trung vào việc phát triển một hệ thống phần mềm 
+quản lý quán cà phê để tối ưu hóa quy trình kinh doanh, nâng cao chất lượng
+dịch vụ, và cải thiện trải nghiệm khách hàng.
+1.2 Phạm Vi
+Phần mềm sẽ bao gồm các chức năng quản lý đơn đặt hàng, theo dõi tồn 
+kho, quản lý thực đơn, thanh toán, và quản lý thông tin khách hàng.
+2. Yêu Cầu Chức Năng
+2.1 Quản Lý Đơn Đặt Hàng
+2.1.1 Đặt Hàng: Người dùng có thể đặt hàng thông qua ứng dụng di 
+động hoặc trực tiếp tại quán.
+2.1.2 Xác Nhận Đơn: Nhân viên có thể xác nhận và xử lý các đơn 
+hàng đã đặt.
+2.2 Theo Dõi Tồn Kho
+2.2.1 Theo Dõi Số Lượng Cà Phê và Nguyên Liệu: Hệ thống sẽ 
+giúp theo dõi số lượng cà phê và nguyên liệu để thông báo khi cần đặt 
+hàng mới.
+2.2.2 Báo Cáo Tình Trạng Tồn Kho: Tạo báo cáo định kỳ về tình 
+trạng tồn kho.
+2.3 Quản Lý Thực Đơn
+2.3.1 Cập Nhật Thực Đơn: Quản trị viên có thể dễ dàng cập nhật 
+thực đơn với các mục mới hoặc sửa đổi giá cả.
+2.3.2 Thực Đơn Đặc Biệt: Khả năng thêm vào thực đơn các đặc sản 
+cà phê mới hoặc thực đơn đặc biệt theo mùa.
+2.4 Thanh Toán
+2.4.1 Tích Hợp Hệ Thống Thanh Toán: Hỗ trợ thanh toán qua nhiều 
+phương tiện, bao gồm ví điện tử và thẻ tín dụng.
+2.4.2 Tính Toán Tự Động: Hệ thống sẽ tính toán tổng số tiền một 
+cách tự động dựa trên đơn hàng của khách hàng.
+2.5 Quản Lý Thông Tin Khách Hàng
+2.5.1 Đăng Ký Khách Hàng: Khả năng cho phép khách hàng đăng ký
+tài khoản để nhận các ưu đãi và tích điểm.
+2.5.2 Phân Tích Dữ Liệu Khách Hàng: Hệ thống sẽ theo dõi lịch sử 
+mua hàng và sở thích của khách hàng để cung cấp ưu đãi cá nhân.
+3. Yêu Cầu Phi Chức Năng
+3.1 Giao Diện Người Dùng
+3.1.1 Giao Diện Dễ Sử Dụng: Giao diện người dùng phải đơn giản, 
+dễ sử dụng và thân thiện với người dùng.
+3.1.2 Giao Diện Đa Ngôn Ngữ: Hỗ trợ nhiều ngôn ngữ để phục vụ đa
+dạng khách hàng.
+3.2 Hiệu Năng
+3.2.1 Tốc Độ Xử Lý: Hệ thống phải đảm bảo tốc độ xử lý để giảm thời
+gian chờ đợi của khách hàng.
+3.2.2 Bảo Mật Dữ Liệu: Bảo vệ thông tin cá nhân của khách hàng và 
+thông tin quản lý bằng cách sử dụng các biện pháp bảo mật hiện đại.
+4. Yêu Cầu Hệ Thống
+4.1 Nền Tảng
+4.1.1 Di Động và Web: Hỗ trợ cả ứng dụng di động và phiên bản web
+để phục vụ đa dạng người dùng.
+4.2 Dữ Liệu
+4.2.1 Dữ Liệu Tích Hợp: Khả năng tích hợp dữ liệu từ hệ thống quản 
+lý khác nếu cần thiết
+5. Ràng Buộc
+5.1 Pháp Luật và Tuân Thủ
+5.1.1 Tuân Thủ Pháp Luật: Hệ thống phải tuân thủ các quy định 
+pháp luật về quản lý thông tin và thanh toán.
+6. Yêu Cầu Phi Chức Năng
+6.1 Tích Hợp Hệ Thống
+6.1.1 Tích Hợp Với Hệ Thống Thứ Ba: Khả năng tích hợp với các hệ 
+thống thanh toán và quản lý khách hàng bên ngoài.
+6.2 Hỗ Trợ và Đào Tạo
+6.2.1 Tài Liệu Hướng Dẫn: Cung cấp tài liệu hướng dẫn chi tiết cho 
+cả người dùng và quản trị viên.
+6.2.2 Hỗ Trợ Người Dùng: Cung cấp kênh hỗ trợ liên tục cho người 
+dùng qua email hoặc trực tuyến.
+7. Điều Kiện Giao Tiếp
+7.1 Thông Tin Liên Lạc
+7.1.1 Liên Lạc Đội Ngũ Phát Triển: Cung cấp thông tin liên lạc cho 
+đội ngũ phát triển để báo cáo lỗi và đề xuất cải tiến.
+7.1.2 Liên Lạc Đơn Vị Vận Chuyển Hợp Tác: Cung cấp thông tin đơn đặt 		hàng cho đơn vị vận chuyển để tiến hành xác nhận và giao hàng đến cho 		khách hàng.
+7.1.3 Số điện thoại hỗ trợ: Một số tổ chức cung cấp số điện thoại hỗ trợ để bạn 	có thể liên hệ trực tiếp với nhân viên hỗ trợ. Số điện thoại này thường được 	ghi trên trang web hỗ trợ hoặc trong tài liệu hướng dẫn sử dụng sản phẩm hoặc 	dịch vụ.
+
+
