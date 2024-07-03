@@ -7,7 +7,7 @@
   </head>
   <body>
     <h1>Trần Đức Dương 201A010092 ducduong387@gmail.com</h1>
-    <h1>Nguyễn Văn Tình 201A010045</h1>
-    <h1>Nguyễn Chí Nghĩa 201A010130</h1>
+    <h1>Nguyễn Văn Tình 201A010045 nvtinh14072002@gmail.com</h1>
+    <h1>Nguyễn Chí Nghĩa 201A010130 ncn.nghia1004@gmail.com</h1>
   </body>
 </html>
