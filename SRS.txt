@@ -1,0 +1,75 @@
+1. Mục đích
+    Tạo ra để cung cấp một mô tả chi tiết về phần mềm hỗ trợ học sinh tìm giáo viên dạy kèm. Mục tiêu của tài liệu là xác định các yêu cầu cần thiết cho việc phát triển và triển khai phần mềm, đồng thời hướng dẫn cho các nhà phát triển, nhà quản lý dự án, và các bên liên quan khác.
+
+2. Phạm vi
+Phần mềm hỗ trợ học sinh tìm giáo viên dạy kèm sẽ cung cấp các chức năng chính sau:
+    Đăng ký và đăng nhập cho cả học sinh và giáo viên
+    Tìm kiếm giáo viên dựa trên các tiêu chí như môn học, trình độ, và vị trí địa lý.
+    Kết nối và giao tiếp giữa học sinh và giáo viên.
+    Đăng lịch học của học sinh để giáo viên có thể chọn.
+    Quản lý thông tin cá nhân và lịch sử học tập của học sinh.
+    Đánh giá và phản hồi giữa học sinh và giáo viên.
+
+Những gì không nằm trong phạm vi:
+    Hỗ trợ tài chính hoặc thanh toán giữa học sinh và giáo viên.
+    Các tính năng học trực tuyến (online learning) chi tiết như lớp học ảo hoặc tài liệu học tập trực tuyến.
+
+
+3. Mô tả tổng quan
+Phần mềm sẽ bao gồm các thành phần và chức năng chính sau:
+    Đăng ký và quản lý thông tin cá nhân: Cả học sinh và giáo viên có thể quản lý thông tin cá nhân và hồ sơ của mình.
+    Hệ thống tìm kiếm: Cho phép học sinh tìm kiếm giáo viên dựa trên các tiêu chí cụ thể.
+    Hệ thống kết nối: Cho phép học sinh và giáo viên kết nối, nhắn tin và sắp xếp lịch học.
+    Quản lý lịch học: Học sinh có thể đăng lịch học của mình và giáo viên có thể chọn lịch phù hợp.
+    Hệ thống đánh giá: Học sinh có thể đánh giá giáo viên sau mỗi buổi học và ngược lại.
+
+4. Các yêu cầu ràng buộc
+    Hạn chế kỹ thuật: Hệ thống phải tương thích với các trình duyệt web phổ biến và các hệ điều hành 
+    An ninh: Hệ thống phải bảo mật thông tin cá nhân của người dùng, sử dụng mã hóa dữ liệu khi truyền tải.
+    Hiệu suất: Hệ thống phải hoạt động mượt mà với lượng người dùng lớn, đáp ứng thời gian thực cho các tác vụ tìm kiếm và kết nối.
+
+5. Yêu cầu chức năng
+    5.1 Tìm kiếm giáo viên
+    Mô tả ngắn gọn: Học sinh có thể tìm kiếm giáo viên dựa trên môn học, trình độ, và vị trí địa lý.
+
+    Các bước thực hiện:
+    Học sinh nhập các tiêu chí tìm kiếm (môn học, trình độ, vị trí).
+    Hệ thống hiển thị danh sách giáo viên phù hợp với các tiêu chí.
+    Học sinh có thể xem thông tin chi tiết của từng giáo viên và chọn kết nối.
+    Ràng buộc và điều kiện:
+    Hệ thống phải trả về kết quả tìm kiếm trong vòng 3 giây.
+    Thông tin giáo viên phải được cập nhật chính xác và đầy đủ.
+
+    5.2 Kết nối và giao tiếp
+    Mô tả ngắn gọn: Cho phép học sinh và giáo viên kết nối và nhắn tin với nhau.
+    Các bước thực hiện:
+
+    Học sinh chọn giáo viên từ danh sách tìm kiếm.
+    Học sinh gửi yêu cầu kết nối đến giáo viên.
+    Giáo viên chấp nhận hoặc từ chối yêu cầu.
+    Sau khi kết nối, học sinh và giáo viên có thể nhắn tin trao đổi.
+    Ràng buộc và điều kiện:
+    Hệ thống phải bảo mật nội dung tin nhắn giữa học sinh và giáo viên.
+    Tin nhắn phải được lưu trữ và có thể truy cập lại sau này.
+
+    5.3 Đăng lịch học
+    Mô tả ngắn gọn: Học sinh có thể đăng lịch học của mình để giáo viên chọn.
+    Các bước thực hiện:
+
+    Học sinh nhập thời gian biểu của mình vào hệ thống.
+    Giáo viên xem và chọn các khung thời gian phù hợp để dạy kèm.
+    Hệ thống gửi thông báo đến học sinh khi giáo viên chọn lịch.
+    Ràng buộc và điều kiện:
+    Lịch học phải được cập nhật theo thời gian thực.
+    Thông báo phải được gửi ngay lập tức khi có thay đổi lịch học.
+
+    5.4 Đánh giá và phản hồi
+    Mô tả ngắn gọn: Học sinh có thể đánh giá giáo viên sau mỗi buổi học và ngược lại.
+    Các bước thực hiện:
+
+    Sau mỗi buổi học, hệ thống gửi yêu cầu đánh giá đến học sinh và giáo viên.
+    Học sinh và giáo viên điền thông tin đánh giá vào biểu mẫu.
+    Hệ thống lưu trữ và hiển thị đánh giá trên hồ sơ cá nhân của học sinh và giáo viên.
+    Ràng buộc và điều kiện:
+    Đánh giá phải được thực hiện ẩn danh.
+    Hệ thống phải bảo vệ tính trung thực và khách quan của các đánh giá.
