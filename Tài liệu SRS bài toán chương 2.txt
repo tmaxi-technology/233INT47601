@@ -1,0 +1,67 @@
+Trần Nam Tân - 191A010171
+Lê Hồng Thanh - 191A010041
+
+TÀI LIỆU YÊU CẦU PHẦN MỀM (SRS)
+1. Giới thiệu
+Tài liệu này mô tả các yêu cầu phần mềm cho ứng dụng hỗ trợ học sinh tìm kiếm giáo viên dạy kèm. Ứng dụng này sẽ cung cấp các công cụ giúp học sinh dễ dàng tìm kiếm và kết nối với giáo viên phù hợp với nhu cầu học tập của mình, đồng thời cho phép học sinh đăng lịch học của mình để giáo viên có thể chọn.
+2. Mục tiêu
+*Mục tiêu của ứng dụng này là giúp học sinh:
+_Dễ dàng tìm kiếm và kết nối với giáo viên dạy kèm phù hợp với nhu cầu học tập của mình.
+_Sắp xếp lịch học hiệu quả với giáo viên.
+_Tiết kiệm thời gian và công sức trong việc tìm kiếm gia sư.
+_Nâng cao hiệu quả học tập.
+3. Người dùng
+*Ứng dụng này dành cho hai loại người dùng chính:
+_Học sinh: Học sinh sử dụng ứng dụng để tìm kiếm giáo viên, kết nối với giáo viên, và sắp xếp lịch học.
+_Giáo viên: Giáo viên sử dụng ứng dụng để tạo hồ sơ, quản lý lịch học, và giao tiếp với học sinh.
+4. Yêu cầu chức năng
+4.1 Tìm kiếm giáo viên
+*Học sinh có thể tìm kiếm giáo viên theo các tiêu chí như: 
+_Môn học
+_Trình độ
+_Khu vực
+_Mức học phí
+_Kinh nghiệm giảng dạy
+_Phương pháp giảng dạy
+_Đánh giá của học viên trước đây
+*Ứng dụng sẽ cung cấp kết quả tìm kiếm phù hợp với các tiêu chí của học sinh.
+4.2 Kết nối với giáo viên
+_Học sinh có thể liên hệ với giáo viên qua tin nhắn, gọi điện thoại hoặc video call.
+_Học sinh có thể đặt lịch học với giáo viên.
+_Ứng dụng sẽ cung cấp hệ thống quản lý lịch học giúp học sinh và giáo viên dễ dàng theo dõi lịch học.
+4.3 Hồ sơ giáo viên
+_Giáo viên có thể tạo hồ sơ trên ứng dụng.
+_Hồ sơ giáo viên bao gồm thông tin về: 
++Trình độ
++Kinh nghiệm giảng dạy
++Môn học giảng dạy
++Phương pháp giảng dạy
++Đánh giá của học viên trước đây
+_Giáo viên có thể cập nhật thông tin hồ sơ của mình bất kỳ lúc nào.
+4.4 Lịch học
+_Học sinh có thể đăng lịch học của mình lên ứng dụng.
+_Giáo viên có thể xem lịch học của học sinh và đặt lịch học phù hợp.
+_Ứng dụng sẽ gửi thông báo cho học sinh và giáo viên khi có lịch học mới.
+4.5 Đánh giá và phản hồi
+_Học sinh có thể đánh giá chất lượng giảng dạy của giáo viên.
+_Giáo viên cũng có thể đánh giá mức độ tiếp thu của học sinh.
+_Ứng dụng sẽ hiển thị đánh giá và phản hồi của học sinh và giáo viên.
+5. Yêu cầu phi chức năng
+5.1 Hiệu suất
+_Ứng dụng phải đáp ứng được nhu cầu truy cập của nhiều người dùng cùng lúc.
+_Ứng dụng phải có tốc độ tải trang nhanh chóng.
+5.2 Bảo mật
+_Ứng dụng phải đảm bảo bảo mật thông tin cá nhân của người dùng.
+_Ứng dụng phải có các biện pháp chống gian lận và truy cập trái phép.
+5.3 Khả năng sử dụng
+_Ứng dụng phải có giao diện người dùng đơn giản, dễ sử dụng.
+_Ứng dụng phải dễ dàng điều hướng và tìm kiếm thông tin.
+5.4 Khả năng mở rộng
+_Ứng dụng phải có khả năng mở rộng để đáp ứng nhu cầu sử dụng ngày càng tăng.
+_Ứng dụng phải dễ dàng tích hợp với các hệ thống khác.
+6. Phụ lục
+_Danh sách thuật ngữ
+_Biểu đồ mô tả mối quan hệ giữa các thực thể
+_Dữ liệu thử nghiệm
+7. Ghi chú
+_Tài liệu này chỉ mô tả các yêu cầu cơ bản của ứng dụng. Yêu cầu chi tiết có thể được bổ sung hoặc thay đổi trong quá trình phát triển ứng dụng.
