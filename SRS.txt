@@ -73,3 +73,7 @@ Phần mềm sẽ bao gồm các thành phần và chức năng chính sau:
     Ràng buộc và điều kiện:
     Đánh giá phải được thực hiện ẩn danh.
     Hệ thống phải bảo vệ tính trung thực và khách quan của các đánh giá.
+
+Tài liệu kham khảo 
+[1] . Asana Guide on Writing an SRS
+[2] . Requirements.com Example SRS Document​ (Asana)​​ (Requirements.com)​.
