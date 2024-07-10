@@ -1,0 +1,29 @@
+1. Mục tiêu của hệ thống
+Hệ thống quản lý thư viện giúp quản lý sách, theo dõi mượn trả sách và hỗ trợ tìm kiếm sách nhanh chóng.
+
+2. Phạm vi của dự án
+Hệ thống bao gồm các chức năng quản lý sách, quản lý thành viên, mượn trả sách, tìm kiếm sách, và báo cáo thống kê.
+
+3. Mô tả chức năng
+Quản lý sách: Thêm, sửa, xóa thông tin sách.
+Quản lý thành viên: Thêm, sửa, xóa thông tin thành viên.
+Mượn trả sách: Theo dõi lịch sử mượn trả sách của các thành viên.
+Tìm kiếm sách: Tìm kiếm sách theo tên, tác giả, thể loại.
+Báo cáo thống kê: Thống kê số lượng sách, số lượng mượn trả.
+4. Yêu cầu phi chức năng
+Hệ thống phải hoạt động 24/7.
+Thời gian phản hồi cho mỗi yêu cầu không quá 2 giây.
+Bảo mật thông tin thành viên bằng cách mã hóa dữ liệu.
+5. Giao diện người dùng
+Giao diện quản lý sách: bao gồm các trường thông tin như tên sách, tác giả, thể loại, năm xuất bản.
+Giao diện mượn trả sách: bao gồm thông tin thành viên, sách mượn, ngày mượn, ngày trả.
+6. Yêu cầu về phần cứng và phần mềm
+Phần cứng: Máy chủ với cấu hình tối thiểu 8GB RAM, 500GB HDD.
+Phần mềm: Hệ điều hành Windows Server, SQL Server.
+7. Các ràng buộc và giả định
+Giả định rằng tất cả các thành viên đều có quyền truy cập internet.
+Hệ thống phải tuân thủ các quy định về bảo mật thông tin cá nhân.
+8. Quản lý dự án
+Thời gian phát triển: 6 tháng.
+Nhân sự: 1 trưởng dự án, 3 lập trình viên, 1 chuyên viên kiểm thử.
+Rủi ro: Trễ tiến độ, lỗi phần mềm.
