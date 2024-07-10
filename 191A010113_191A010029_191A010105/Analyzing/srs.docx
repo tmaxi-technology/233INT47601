@@ -35,3 +35,13 @@ Người dùng chỉ có thể sử dụng các chức năng và truy cập các
 4.3  Ràng buộc 
 ELCs là hệ thống dựa trên Web do vậy người dùng cần có các thiết bị có kết nối với internet như máy vi tính và được cung cấp các dịch vụ như thư điện tử, hình ảnh, văn bản, đa phương tiện, giao thức truyền thông siêu văn bản để có thể gửi và nhận thông tin, dữ liệu giữa máy khách và web server. 
 Bên phía máy khách – người dùng cần có phần mềm ứng dụng duyệt Web như Google Chrome, Internet Explore, Mozilla Firefox, Opera với phiên bản mới nhất có hỗ trợ JavaScript. 
+5. Theo dõi và đánh giá  
+Đánh giá hiệu suất: Hệ thống phải có cơ chế đánh giá hiệu suất để đo lường thời gian phản hồi, độ tin cậy và khả năng mở rộng.
+Phản hồi người dùng: Cung cấp cơ chế để người dùng gửi phản hồi và đánh giá chất lượng dịch vụ, giúp cải thiện và nâng cao trải nghiệm người dùng.
+Báo cáo và phân tích: Hệ thống phải cung cấp các báo cáo chi tiết về hoạt động, như số lượng buổi học, số lượng người dùng đăng ký, doanh thu từ thanh toán, và các sự cố xảy ra.
+Giám sát bảo mật: Thường xuyên giám sát và kiểm tra hệ thống để phát hiện và ngăn chặn các mối đe dọa bảo mật.
+Cập nhật và bảo trì: Đảm bảo hệ thống được cập nhật thường xuyên để vá các lỗi bảo mật và nâng cấp tính năng mới. Cần có kế hoạch bảo trì định kỳ để kiểm tra và duy trì hoạt động ổn định của hệ thống.
+Theo dõi hiệu quả giảng dạy: Thu thập và phân tích dữ liệu về hiệu quả giảng dạy, như tiến bộ của học sinh, phản hồi từ học sinh và giáo viên, để đánh giá và cải thiện chất lượng giảng dạy.
+6. Tài liệu tham khảo 
+- IEEE Recommended Practice for Software Requirements Specifications," in IEEE Std 830-1998, vol., no., pp.1-40, 20 Oct. 1998. 
+- IEEE Guide for Developing System Requirements Specifications," in IEEE Std 1233-1996, vol., no., pp.1-30, 22 Dec. 1996. 
