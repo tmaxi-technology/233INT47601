@@ -108,9 +108,57 @@ Phần mềm sẽ bao gồm các thành phần và chức năng chính sau:
     - Truy xuất dữ liệu nhanh, lưu trữ dữ liệu tốt.
     - Tìm kiếm nhanh, thuận tiện.
 
+10. Các công nghệ sử dung
+    -Giao diện phần mềm có nghĩa là cách chương trình phần mềm giao tiếp với nhau hoặc với người dùng dưới bất kỳ ngôn ngữ, mã hoặc thông                                               báo nào đều có thể được mô tả và giải thích đầy đủ. Ví dụ có thể là bộ nhớ dùng chung, luồng dữ liệu,...
+    -Cách hệ thống phần mềm thực hiện các chức năng mong muốn trong điều kiện cụ thể có thể được giải quyết. Nó cũng giải quyết các yêu cầu về thời gian cần thiết, bộ nhớ cần thiết, tỷ lệ lỗi tối đa. 
+    -Phần mềm yêu cầu hiệu suất của SRS chỉ định các hạn chế về hiệu suất trên hệ thống phần mềm. Tất cả các yêu cầu liên quan đến đặc tính hiệu suất của hệ thống phải được xác định rõ ràng. 
+    -Có hai loại yêu cầu về hiệu suất: tĩnh và động. Yêu cầu tĩnh là những yêu cầu không áp dụng ràng buộc lên các đặc tính thực tế của hệ thống. Yêu cầu động xác định ràng buộc về hành vi thực thi của hệ thống.
+
+11. Giới hạn hệ thống
+    -Các hạn chế về phần cứng và phần mềm. Có một số yếu tố trong môi trường của khách hàng có thể hạn chế các lựa chọn của người thiết kế đến sự ràng buộc chặt chẽ về thiết kế. Các yếu tố yếu đó bao gồm các tiêu chuẩn phải tuân thủ các giới hạn về tài nguyên, hoạt động các yêu cầu và chính sách về môi trường, độ tin cậy và bảo mật có thể tác động đến thiết kế của hệ thống.
+
+12. Kế hoạch kiểm thử và đánh giá 
+    -Trong Kế hoạch kiểm thử, trọng tâm kiểm tra và phạm vi dự án được xác định. Nó liên quan đến phạm vi kiểm thử, lập lịch, các tính năng sẽ được kiểm tra, các tính năng không được kiểm tra, ước tính và quản lý tài nguyên.
+    -Một kế hoạch kiểm thử cho dự án phần mềm có thể được định nghĩa là một tài liệu xác định phạm vi, mục tiêu, cách tiếp cận và nhấn mạnh vào nỗ lực kiểm thử.
+    -Các thành phần của kế hoạch kiểm thử bao gồm: Test plan ID, các tính năng cần được test, kỹ thuật test, nhiệm vụ test, các tính năng pass hoặc fail so với tiêu chuẩn, test deliverables, trách nhiệm, và tiến độ, vv..
+    -Kế hoạch kiểm thử được thực hiện bởi Test Manager hoặc Test Lead (người quyết định làm thế nào để test, khi nào cần test, ai sẽ test và test cái gì).
+    -Kế hoạch kiểm thử tường thuật về đặc điểm kỹ thuật.      
+    -Kế hoạch kiểm thử có thể thay đổi được.
+    -Việc lập kế hoạch kiểm thử được thực hiện để xác định các vấn đề và phụ thuộc có thể có để xác định các rủi ro.
+    -Một kế hoạch kiểm thử tồn tại riêng lẻ.
+    -Nó được xác định ở cấp độ dự án.
+
+13. Báo cáo kiểm thử và đánh giá 
+    -Phần giới thiệu 
+-Phần này mô tả hệ thống 1 cách tổng quan; Mô tả chi tiết mục đích và ý nghĩa của tài liệu, giúp cho người đọc hiểu được các khái niệm của nó; Mô tả các đổi tượng sử dụng tài liệu và mục đích sử dụng. Ngoài ra, phần giới thiệu có danh sách các từ viết tắt và ý nghĩa của các từ đó cùng Tài liệu đính kèm liên quan. 
+
+    -Yêu cầu tổng thể 
+-Có thể biểu diễn bằng sơ đồ phân cấp chức năng, kèm theo text giải thích các thành phần hệ thống. 
+
+    -Yêu cầu bảo mật 
+–Mô tả về nhiệm vụ của người dùng hệ thống, chức năng của người dùng, đồng thời chỉ ra các quyền của người dùng trong hệ thống 
+-Xây dựng bảng ma trận phân quyền cho mỗi người sử dụng của hệ thống 
+-Mô tả về nhiệm vụ của người dùng hệ thống, chức năng của người dùng, đồng thời chỉ ra các quyền của người dùng trong hệ thống 
+-Xây dựng bảng ma trận phân quyền cho mỗi người sử dụng của hệ thống 
+    
+    -Đặc tả use case 
+-Mô tả chi tiêt các nhiệm vụ cần thực hiện, các hành vi đầu ra, đầu vào, các luồng thay thế và kết quả của việc tương tác hệ thống 
+    
+    -Thiết kế màn hình 
+-Mô tả giao diện người dùng bằng hình ảnh trực quan giúp người đọc tưởng tượng được hệ thống khi chưa có hệ thống thực 
+
+    -Các yêu cầu khác 
+-Bao gồm các yêu cầu bổ sung của hệ thống như các yêu cầu phi chức năng. 
+      
+    -Yêu cầu tích hợp
+-Mô tả luồng tích hợp với hệ thống đang phát triển với các hệ thống khác nếu có 
+
+
 
 
 Tài liệu kham khảo 
 [1] . Asana Guide on Writing an SRS
 [2] . Requirements.com Example SRS Document​ (Asana)​​ (Requirements.com)​.
 [3] . https://qndev.github.io/resources/SRS.pdf.
+[4] . Software Requirement Specification (SRS) Format
+[5] . CodeStar Academy
