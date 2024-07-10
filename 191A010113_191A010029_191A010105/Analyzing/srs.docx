@@ -11,3 +11,27 @@ Tài liệu đặc tả yêu cầu phần mềm này được xây dựng nhằm
 Với việc phát triển hệ thống học trực tuyến cung cấp cho khách hàng, tổ chức cá nhân một công cụ đi kèm với cách dạy và học truyền thống. Mang lại nhiều lợi ích về kinh tế với chi phí thấp nhưng vẫn đảm bảo được nội dung cũng như chất lượng của việc học trực tuyến. 
 2. Tổng quan hệ thống 
 Đây là một hệ thống giúp quản lý và hỗ trợ đặc lực cho khách hàng là những người có nhu cầu về tìm kiếm gia sư dạy học. Người gia sư có thể sư dụng dịch vụ của hệ thống để tiếp cận với những khách hàng của mình dễ dàng hơn nhờ sự hỗ trợ đăng nhu cầu giảng dạy của mình lên hệ thống. Người quản lý của hệ thống có thể phát triển các dịch vụ về đánh giá khóa học, trình độ giảng dạy và phân chia các nhu cầu của khách hàng theo cấp độ và các tính năng, chức năng hữu ích cho việc học tập, như khả năng lưu trữ những thảo luận trong khóa học, có thể truy cập lại, hay những tính năng cơ bản cần có trong một hệ thống quản lý học tập.
+3. Yêu cầu chức năng 
+3.1 Các tác nhân 
+Hệ thống gồm có các tác nhân là Khách, Học viên, Giảng viên và Quản trị viên. Khách có vai trò là người dùng khi chưa đăng nhập vào hệ thống. Học viên đăng nhập vào hệ thống. Giảng viên được cung cấp các chức năng giảng dạy và hướng dẫn học tập. Quản trị viên có vai trò quản trị hoạt động của hệ thống. 
+3.2 Các chức năng của hệ thống 
+ Đăng nhập: Chức năng này nhằm mục đínch xác thực người dùng khi tương tác với hệ thống nhằm cung cấp quyền cũng như phạm vi truy cập hệ thống. 
+ Đăng ký: Để truy cập sử dụng hệ thống thì Người dùng trước hết cần đăng ký tài khoản. 
+Quản trị người dùng: Quản trị viên có vai trò quản trị những người dùng trong hệ thống. 
+ Các nhóm chức năng quản lý khóa học, bài giảng, bài tập: Công việc quản trị khóa học của Giảng viên. 
+Đăng ký khóa học: Người dùng sử dụng chức năng nhằm mục đích ghi danh, truy cập đến nguồn kiến thức từ những khóa học do Giảng viên tạo ra.
+4. Các yêu cầu phi chức năng 
+4.1 Giao diện người dùng 
+Giao diện hiển thị tốt trên các thiết bị khác nhau. 
+Đối với khách khi truy cập sử dụng hệ thống thông qua trình duyệt web, hệ thống sẽ nhận yêu cầu truy cập từ phía máy khách thông qua trình duyệt và gửi trae về cho trình duyệt các menu chức năng tương ứng với phạm vi của từng người dùng. 
+Trong trường hợp này Khách có thể tương tác với hệ thống thông qua cửa sổ màn hình trên trình duyệt với cấu trúc trang gồm có: 
+- Phần tiêu đề trang cung cấp tên hệ thống, nút bấm đăng nhập hệ thống 
+- Phần thân trang cung cấp thông tin về danh sách các khóa học  
+- Thông tin khóa học bao gồm tên khóa học, giảng viên, danh sách bài giảng phần cuối trang cung cấp thông tin liên quan đến hệ thống 
+Khi Người dùng truy cập hệ thống và đăng ký khóa học và tiến hành học thì phần thân trang được chia thành hai phần trái – phải với bên trái gồm danh sách các bài học của khóa học, bên phải là nội dung của từng bài học đó. 
+Khi quản trị viên truy cập sử dụng chức năng hệ thống thì phần thân trang cũng sẽ phân bổ theo cấu trúc trái-phải hay sidebar menu, với mỗi phần tử trong menu sẽ tương ứng với từng chức năng quản lý của quản trị viên. 
+4.2 Tính bảo mật 
+Người dùng chỉ có thể sử dụng các chức năng và truy cập các dữ liệu phù hợp với vai trò của người dùng đó. 
+4.3  Ràng buộc 
+ELCs là hệ thống dựa trên Web do vậy người dùng cần có các thiết bị có kết nối với internet như máy vi tính và được cung cấp các dịch vụ như thư điện tử, hình ảnh, văn bản, đa phương tiện, giao thức truyền thông siêu văn bản để có thể gửi và nhận thông tin, dữ liệu giữa máy khách và web server. 
+Bên phía máy khách – người dùng cần có phần mềm ứng dụng duyệt Web như Google Chrome, Internet Explore, Mozilla Firefox, Opera với phiên bản mới nhất có hỗ trợ JavaScript. 
