@@ -1,0 +1,13 @@
+Đặc tả Yêu cầu Phần mềm (SRS) cho Hệ thống Tìm kiếm Giáo viên Dạy Kèm
+1. Giới thiệu
+Hệ thống Tìm kiếm Giáo viên Dạy Kèm là một phần mềm nhằm giúp học sinh dễ dàng tìm kiếm và kết nối với giáo viên dạy kèm phù hợp với nhu cầu học tập cá nhân của mình. Hệ thống cũng cung cấp cho giáo viên các công cụ để quản lý lịch học và học sinh của mình. Tài liệu này mô tả các yêu cầu phần mềm cho ứng dụng hỗ trợ học sinh tìm kiếm giáo viên dạy kèm. Ứng dụng này sẽ cung cấp các công cụ giúp học sinh dễ dàng tìm kiếm và kết nối với giáo viên phù hợp với nhu cầu học tập của mình, đồng thời cho phép học sinh đăng lịch học của mình để giáo viên có thể chọn.
+1.1 Mục đích
+Mục đích của hệ thống là:
++ Giúp học sinh tìm kiếm giáo viên dạy kèm phù hợp với nhu cầu học tập cá nhân của mình.
++ Giúp giáo viên dễ dàng tìm kiếm học sinh và quản lý lịch học.
++ Tăng hiệu quả học tập của học sinh.
+1.2 Phạm vi 
+Tài liệu đặc tả yêu cầu phần mềm này được xây dựng nhằm phục vụ cho dự án phần mềm cho hệ thống  tìm kiếm giáo viên dạy kèm  
+Với việc phát triển hệ thống học trực tuyến cung cấp cho khách hàng, tổ chức cá nhân một công cụ đi kèm với cách dạy và học truyền thống. Mang lại nhiều lợi ích về kinh tế với chi phí thấp nhưng vẫn đảm bảo được nội dung cũng như chất lượng của việc học trực tuyến. 
+2. Tổng quan hệ thống 
+Đây là một hệ thống giúp quản lý và hỗ trợ đặc lực cho khách hàng là những người có nhu cầu về tìm kiếm gia sư dạy học. Người gia sư có thể sư dụng dịch vụ của hệ thống để tiếp cận với những khách hàng của mình dễ dàng hơn nhờ sự hỗ trợ đăng nhu cầu giảng dạy của mình lên hệ thống. Người quản lý của hệ thống có thể phát triển các dịch vụ về đánh giá khóa học, trình độ giảng dạy và phân chia các nhu cầu của khách hàng theo cấp độ và các tính năng, chức năng hữu ích cho việc học tập, như khả năng lưu trữ những thảo luận trong khóa học, có thể truy cập lại, hay những tính năng cơ bản cần có trong một hệ thống quản lý học tập.
