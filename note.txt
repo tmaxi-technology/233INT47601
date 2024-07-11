@@ -12,18 +12,34 @@ git status
 $ git commit -m 'add index.html file'
 
 // Xem lịch sử commit
-git log
+git log ( thoát nhấn nút q)
 VD: 
 commit df11a83831f5368acca78fd02bc01aa61501ba0f (HEAD -> master) ( này là id)
 Author: Duc <lux19112001@gmail.com> ( config name vs config mail)
 Date:   Thu Jul 11 11:12:12 2024 +0700 ( time đăng )
 add index.html file ( nội dung ghi chú )
 
+// Cậo nhật lại khi thay đổi một cái gì đó ở commit
+git add.
 
+// Khi tạo github xong muốn up lên git chúng ta chỉ cần
+git push origin main
 
+// Xoá link git cũ
+git remote remove origin
 
+// Khi xoá link git cũ chuyển link git khác sài
+git remote add origin [URL_mới]
 
+// Kiểm tra xem git mình đang ở link git nào
+git remote -v
 
+// Check branch 
+git branch
+
+// Add branch new 
+git checkout -b [ten mình muon]
+vd: git checkout -b new_branch
 
 
 
