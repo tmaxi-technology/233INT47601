@@ -1,0 +1,53 @@
+Huỳnh Nam Thuan 191A010056 
+Huỳnh Kim Long 191A010055 
+Nguyễn Thái Tuấn 191A010061
+
+SRS
+ 1.1. *Mục Đích*
+Phần mềm này được thiết kế để hỗ trợ học sinh tại Trung tâm bồi dưỡng văn hóa ABC tìm kiếm và kết nối với giáo viên dạy kèm phù hợp. Phần mềm cũng sẽ giúp học sinh và giáo viên sắp xếp lịch học một cách thuận tiện và hiệu quả.
+1.2. *Phạm Vi*
+Phần mềm sẽ phục vụ cho học sinh cấp 3 tại TP.HCM và Bình Dương, cung cấp các công cụ để tìm kiếm giáo viên, đăng lịch học, và sắp xếp các buổi học kèm.
+1.3. *Đối Tượng Sử Dụng*
+- Học sinh cần tìm giáo viên dạy kèm
+- Giáo viên cung cấp dịch vụ dạy kèm
+- Quản trị viên của trung tâm
+ 2. Yêu Cầu Chức Năng
+2.1. *Quản Lý Tài Khoản*
+- Đăng ký tài khoản học sinh và giáo viên
+- Đăng nhập và đăng xuất
+- Quên mật khẩu và khôi phục tài khoản
+2.2. *Tìm Kiếm Giáo Viên*
+- Tìm kiếm giáo viên theo môn học, địa điểm, và lịch học
+- Xem thông tin chi tiết của giáo viên (kinh nghiệm, đánh giá, giá cả)
+- Gửi yêu cầu kết nối đến giáo viên
+2.3. *Quản Lý Lịch Học*
+- Học sinh có thể đăng lịch học trống của mình
+- Giáo viên có thể xem và chọn các buổi học phù hợp với lịch của họ
+- Thông báo khi có thay đổi lịch học
+2.4. *Quản Lý Buổi Học*
+- Xác nhận buổi học giữa học sinh và giáo viên
+- Theo dõi tiến độ học tập và lưu trữ kết quả học tập
+- Đánh giá và phản hồi sau mỗi buổi học
+2.5. *Thông Báo*
+- Gửi thông báo về các buổi học sắp tới
+- Thông báo khi có tin nhắn mới hoặc yêu cầu kết nối mới
+ 3. Yêu Cầu Phi Chức Năng
+3.1. *Hiệu Năng*
+- Phần mềm phải hoạt động mượt mà với thời gian phản hồi dưới 2 giây.
+3.2. *Bảo Mật*
+- Bảo vệ thông tin cá nhân của người dùng
+- Mã hóa dữ liệu quan trọng
+3.3. *Khả Năng Mở Rộng*
+- Dễ dàng mở rộng để thêm các chức năng mới hoặc phục vụ nhiều người dùng hơn
+3.4. *Khả Năng Sử Dụng*
+- Giao diện người dùng thân thiện và dễ sử dụng
+- Hướng dẫn sử dụng chi tiết và hỗ trợ trực tuyến
+4. Ràng Buộc Hệ Thống
+4.1. *Phần Cứng*
+- Yêu cầu cấu hình máy tính tối thiểu cho giáo viên và học sinh: CPU 2.0 GHz, RAM 4 GB, kết nối Internet ổn định
+4.2. *Phần Mềm*
+- Tương thích với các trình duyệt web phổ biến (Chrome, Firefox, Safari)
+- Hỗ trợ trên các thiết bị di động (iOS và Android)
+ 5. Tài Liệu Hỗ Trợ
+- Hướng dẫn cài đặt và sử dụng phần mềm
+- FAQ và kênh hỗ trợ trực tuyến
