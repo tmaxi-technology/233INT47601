@@ -1,0 +1,87 @@
+Mô tả bài toán: 
+Học sinh thường gặp khó khăn trong việc tìm kiếm giáo viên dạy kèm phù hợp với nhu cầu học tập cá nhân của mình và sắp xếp lịch học phù hợp với thời gian biểu của mình.
+Phần mềm hỗ trợ học sinh tìm giáo viên dạy kèm cần cung cấp các công cụ để học sinh dễ dàng tìm kiếm và kết nối với giáo viên, đồng thời cho phép học sinh đăng lịch học của mình để giáo viên có thể chọn.
+
+Giới thiệu
+Mục đích
+Mục đích của tài liệu SRS là cung cấp một cái nhìn tổng quan và chi tiết về các yêu cầu chức năng và phi chức năng của phần mềm hỗ trợ học sinh tìm giáo viên dạy kèm.
+Phạm vi
+Phần mềm giúp học sinh dễ dàng tìm kiếm và kết nối với giáo viên dạy kèm. Nó cho phép học sinh đăng lịch học của mình để giáo viên có thể chọn và quản lý việc dạy kèm.
+Đối tượng sử dụng
+Học sinh tìm kiếm giáo viên dạy kèm.
+Giáo viên dạy kèm.
+Quản trị viên hệ thống.
+Định nghĩa, thuật ngữ, từ viết tắt
+Học sinh: Người sử dụng dịch vụ để tìm giáo viên dạy kèm.
+Giáo viên: Người cung cấp dịch vụ dạy kèm cho học sinh.
+Quản trị viên: Người quản lý và duy trì hệ thống.
+Tổng quan hệ thống
+Mô tả tổng quan
+Tìm kiếm giáo viên
+Kết nối và đặt lịch với giáo viên
+Đăng lịch học
+Quản lý thông tin cá nhân
+Các yêu cầu ràng buộc
+Hệ thống phải tương thích với các thiết bị di động và máy tính.
+Hệ thống phải đảm bảo tính bảo mật và riêng tư cho người dùng.
+Yêu cầu chức năng
+Tên yêu cầu
+Đăng ký và đăng nhập 
+Tìm kiếm giáo viên
+Kết nối và đặt lịch với giáo viên
+Đăng lịch học
+Quản lý thông tin cá nhân
+Đánh giá và phản hồi
+Thanh toán và quản lý tài chính
+Bảo mật và bảo vệ dữ liệu
+Mô tả
+Đăng ký và đăng nhập: Học sinh và giáo viên phải đăng ký tài khoản để sử dụng hệ thống. 
+Tìm kiếm giáo viên: Học sinh có thể tìm kiếm giáo viên dạy kèm dựa trên các tiêu chí như môn học, khu vực, mức giá. 
+Kết nối và đặt lịch: Học sinh có thể kết nối và đặt lịch học với giáo viên.
+Đăng lịch học: Học sinh có thể đăng lịch học của mình để giáo viên có thể chọn.
+Quản lý thông tin cá nhân: Người dùng có thể quản lý thông tin cá nhân của mình trên hệ thống.
+Đánh giá và phản hồi: Đánh giá và phản hồi tình hình học tập học viên.
+Thanh toán và quản lý tài chính: Thanh toán cho học viên và quản lý tài chính khóa học.
+Bảo mật và bảo vệ dữ liệu: Bảo mật dữ liệ cho học viên và giảng viên. 
+Ràng buộc và điều kiện
+Đăng ký và đăng nhập:
+Người dùng có thể đăng ký tài khoản mới bằng email và mật khẩu. 
+Người dùng có thể đăng nhập vào hệ thống bằng tài khoản đã đăng ký. 
+Tìm kiếm giáo viên:
+Hệ thống phải cung cấp công cụ tìm kiếm cho phép học sinh lọc kết quả dựa trên các tiêu chí. 
+Hệ thống phải hiển thị danh sách giáo viên phù hợp với yêu cầu của học sinh. 
+Kết nối và đặt lịch với giáo viên:
+Hệ thống phải cho phép học sinh gửi yêu cầu kết nối đến giáo viên. 
+Hệ thống phải cho phép giáo viên chấp nhận hoặc từ chối yêu cầu kết nối. Học sinh có thể chọn và đặt lịch học với giáo viên sau khi kết nối thành công.
+Đăng lịch học:
+Học sinh có thể tạo và quản lý lịch học của mình. 
+Giáo viên có thể xem và chọn lịch học phù hợp với mình.
+Quản lý thông tin cá nhân:
+Người dùng có thể cập nhật thông tin cá nhân như tên, email, số điện thoại. 
+Người dùng có thể thay đổi mật khẩu.
+Đánh giá và phản hồi:
+Học sinh có thể đánh giá giáo viên sau mỗi buổi học.
+Cung cấp hệ thống phản hồi để học sinh và giáo viên có thể đưa ra nhận xét và cải thiện chất lượng học tập.
+Thanh toán và quản lý tài chính:
+Hỗ trợ thanh toán trực tuyến cho các buổi học.
+Quản lý hóa đơn và lịch sử thanh toán của học sinh.
+Bảo mật và bảo vệ dữ liệu:
+Đảm bảo bảo mật thông tin cá nhân và dữ liệu học tập của người dùng.
+Hệ thống sao lưu dữ liệu tự động để tránh mất mát dữ liệu.
+Yêu cầu phi chức năng
+Hiệu suất
+Hệ thống phải xử lý các yêu cầu tìm kiếm và kết nối một cách nhanh chóng.
+Thời gian phản hồi: Hệ thống phải có thời gian phản hồi nhanh chóng, tối đa 2 giây cho các thao tác cơ bản.
+Khả năng mở rộng: Hệ thống phải có khả năng xử lý đồng thời nhiều người dùng mà không giảm hiệu suất.
+Khả dụng
+Độ tin cậy: Hệ thống phải có độ tin cậy cao, đảm bảo hoạt động liên tục với thời gian hoạt động (uptime) tối thiểu 99.9%.
+Khả năng bảo trì: Hệ thống phải dễ dàng bảo trì và cập nhật.
+Tính dễ sử dụng
+Giao diện người dùng thân thiện: Giao diện phải dễ sử dụng và thân thiện với người dùng.
+Hỗ trợ đa ngôn ngữ: Phần mềm phải hỗ trợ đa ngôn ngữ để phù hợp với người dùng từ nhiều quốc gia.
+Bảo mật
+Mã hóa dữ liệu: Tất cả dữ liệu nhạy cảm phải được mã hóa trong quá trình truyền và lưu trữ.
+Xác thực và phân quyền: Hệ thống phải có cơ chế xác thực và phân quyền người dùng nghiêm ngặt.
+Ràng buộc hệ thống
+  Hệ thống phải hoạt động trên các nền tảng phổ biến như web, Android, iOS.
+  Hệ thống phải đảm bảo tính tương thích với các trình duyệt web hiện đại.
