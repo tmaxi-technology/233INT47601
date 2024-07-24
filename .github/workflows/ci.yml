@@ -13,11 +13,11 @@ on:
       runs-on: ubuntu-latest
 
       steps:    
-        - name: Display notification 1
-          run: echo "Hello Duc!"
-        
-        - name: Display notification 2
-          run: echo "Hello Thoai!"
-        
-        - name: Display notification 3
-          run: echo "Hello Toan!"
+      - name: Display notification 1
+        run: echo "Hello Duc!"
+      
+      - name: Display notification 2
+        run: echo "Hello Thoai!"
+      
+      - name: Display notification 3
+        run: echo "Hello Toan!"
