@@ -3,3 +3,5 @@ hello thay
 Em xin chao thay Phong
 
 test CI
+
+welcome CI/CD
