@@ -20,5 +20,5 @@ jobs:
       run: echo "Hello"
     
     - name: hien thi thong bao 2s
-      run: git checkout https://github.com/tmaxi-technology/AppliedBioinformatics2023.git
+      run: git clone https://github.com/tmaxi-technology/AppliedBioinformatics2023.git
 
