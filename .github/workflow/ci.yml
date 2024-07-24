@@ -1,0 +1,14 @@
+name: CI
+on:
+  push:
+    branches:
+      - Toan191A101041
+
+  pull_request:
+    branches:
+      - Toan191A010141
+
+job:
+  - name: Display notification 1
+    run echo "Hello world!"
+ 
