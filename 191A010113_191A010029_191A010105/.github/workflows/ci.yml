@@ -2,14 +2,14 @@ name: CI
 on:
   push:
     branches:
-      - 191A010113_191A010029_191A010105
+        - 191A010113_191A010029_191A010105
 
   pull_request:
     branches:
-      - 191A010113_191A010029_191A010105
+        - 191A010113_191A010029_191A010105
 
 jobs:
-  build: 
+  build: LAMVIEC
     runs-on: ubuntu-latest
 
     steps:    
