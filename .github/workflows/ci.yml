@@ -1,4 +1,4 @@
-name: CI
+name: Test CI
 
 on:
   push:
@@ -15,14 +15,10 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
+    
+    - name: hien thi thong bao 1
+      run: echo "Hello"
+    
+    - name: hien thi thong bao 2s
+      run: git checkout https://github.com/tmaxi-technology/AppliedBioinformatics2023.git
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v2
-      with:
-        node-version: '14'
-
-    - name: Install dependencies
-      run: npm install
-
-    - name: Run Welcome
-      run: echo "Hello CI"
