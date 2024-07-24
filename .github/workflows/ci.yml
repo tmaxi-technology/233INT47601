@@ -1,0 +1,21 @@
+name: CT
+on:
+  push:
+    branches:
+      - 191A010024-191A010102-191A010174
+
+  pull_request:
+    branches:
+      - 191A010024-191A010102-191A010174
+
+jobs:
+  build: 
+    runs-on: ubuntu-latest
+
+    steps:    
+    - name: Display notification 1
+      run: echo "Hello Tấn Lê kiện tướng cầu lông đơn nam TP Hồ Chí Minh"
+    
+    - name: Display notification 2
+      run: echo "Hello Trung dân quân thường trực (ban chỉ huy quân sự xã An Phú Tây)"
+    
