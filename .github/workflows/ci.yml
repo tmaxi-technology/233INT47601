@@ -14,11 +14,11 @@ jobs:
 
     steps:    
       - name: Display notification 1
-        run echo "Hello Duc!"
+        run: echo "Hello Duc!"
       
       - name: Display notification 2
-        run echo "Hello Thoai!"
+        run: echo "Hello Thoai!"
       
       - name: Display notification 3
-        run echo "Hello Toan!"
+        run: echo "Hello Toan!"
     
