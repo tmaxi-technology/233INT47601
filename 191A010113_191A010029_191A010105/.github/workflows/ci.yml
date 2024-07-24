@@ -1,0 +1,23 @@
+name: BAU
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build: LAMVIEC
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+    
+    - name: hien thi thong bao 1
+      run: echo "Xin chao"
+    
+    - name: hien thi thong bao 2s
+      run: git clone https://github.com/tmaxi-technology/AppliedBioinformatics2023.git
