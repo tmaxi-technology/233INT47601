@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng kí môn học và In hóa đơn</title>
+    <link rel="stylesheet" href="dangkimonhoc.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Đăng kí môn học</h2>
+        <form id="course-registration-form">
+            <div class="input-group">
+                <label for="course-name">Tên môn học:</label>
+                <select id="course-name" name="course-name" onchange="showCourseCode()" required>
+                    <option value="">Chọn môn học</option>
+                    <option value="Toán">Toán</option>
+                    <option value="Khoa Học">Khoa học</option>
+                    <option value="Lịch sử">Lịch sử</option>
+                    <option value="Hóa">Hóa</option>
+                    <option value="Văn">Văn</option>
+                    <option value="Lý">Lý</option>
+                    <!-- Thêm các tùy chọn khác tùy theo nhu cầu -->
+                </select>
+            </div>
+            <div class="input-group">
+                <label for="course-code">Mã môn học:</label>
+                <input type="text" id="course-code" name="course-code" readonly>
+            </div>
+            <div class="input-group">
+                <label for="teacher">Giáo viên:</label>
+                <select id="teacher" name="teacher" required>
+                    <option value="">Chọn giáo viên</option>
+                    <option value="teacher1">Thuận</option>
+                    <option value="teacher2">Long</option>
+                    <option value="teacher3">Tuấn</option>
+                    <!-- Thêm các tùy chọn khác tùy theo nhu cầu -->
+                </select>
+            </div>
+            <div class="input-group">
+                <label for="start-date">Ngày bắt đầu:</label>
+                <input type="date" id="start-date" name="start-date" required>
+            </div>
+            <div class="input-group">
+                <label for="end-date">Ngày kết thúc:</label>
+                <input type="date" id="end-date" name="end-date" required>
+            </div>
+            <div class="input-group">
+                <label for="fee-per-day">Giá tiền (VNĐ/ngày):</label>
+                <input type="text" id="fee-per-day" name="fee-per-day" value="140000" readonly>
+            </div>
+            <div class="input-group">
+                <label for="num-days-per-week">Số ngày/tuần:</label>
+                <select id="num-days-per-week" name="num-days-per-week" required>
+                    <option value="">Chọn số ngày/tuần</option>
+                    <option value="1">1 ngày/tuần</option>
+                    <option value="2">2 ngày/tuần</option>
+                    <option value="3">3 ngày/tuần</option>
+                    <!-- Thêm các tùy chọn khác tùy theo nhu cầu -->
+                </select>
+            </div>
+            <div class="input-group">
+                <label for="address">Địa chỉ:</label>
+                <textarea id="address" name="address" rows="2" required></textarea>
+            </div>
+            <div class="input-group">
+                <label for="description">Mô tả:</label>
+                <textarea id="description" name="description" rows="4" required></textarea>
+            </div>
+            <button type="button" onclick="generateInvoice()">Đăng kí và In hóa đơn</button>
+        </form>
+    </div>
+
+    <div class="invoice-preview" id="invoice-preview">
+        <!-- Phần hiển thị hóa đơn sẽ được thêm vào đây bằng JavaScript -->
+    </div>
+    
+    <script>
+        function showCourseCode() {
+            var courseName = document.getElementById("course-name").value;
+            var courseCodeField = document.getElementById("course-code");
+
+            // Mô phỏng một số mã môn học dựa trên tên môn học (có thể thay đổi theo nhu cầu)
+            var courseCodes = {
+                "math": "MATH101",
+                "science": "SCI202",
+                "history": "HIST303"
+                // Thêm các mã môn học khác tùy theo nhu cầu
+            };
+
+            // Hiển thị mã môn học tương ứng khi chọn môn học
+            if (courseCodes.hasOwnProperty(courseName)) {
+                courseCodeField.value = courseCodes[courseName];
+            } else {
+                courseCodeField.value = "";
+            }
+        }
+
+        function generateInvoice() {
+            var form = document.getElementById("course-registration-form");
+
+            // Lấy các giá trị từ form
+            var courseName = form.elements["course-name"].value;
+            var courseCode = form.elements["course-code"].value;
+            var teacher = form.elements["teacher"].value;
+            var startDate = form.elements["start-date"].value;
+            var endDate = form.elements["end-date"].value;
+            var totalPrice = calculateTotalPrice();
+            
+            // Hiển thị hóa đơn
+            var invoicePreview = document.getElementById("invoice-preview");
+            invoicePreview.innerHTML = `
+                <h2>Hóa đơn</h2>
+                <p><strong>Mã hóa đơn:</strong> ${generateInvoiceCode()}</p>
+                <p><strong>Môn học:</strong> ${courseName}</p>
+                <p><strong>Mã môn học:</strong> ${courseCode}</p>
+                <p><strong>Tổng giá tiền:</strong> ${totalPrice.toLocaleString("vi-VN")} VNĐ</p>
+                <p><strong>Ngày bắt đầu:</strong> ${startDate}</p>
+                <p><strong>Ngày kết thúc:</strong> ${endDate}</p>
+                <p><strong>Giáo viên:</strong> ${teacher}</p>
+            `;
+        }
+
+        function calculateTotalPrice() {
+            var feePerDay = parseInt(document.getElementById("fee-per-day").value);
+            var numDaysPerWeek = parseInt(document.getElementById("num-days-per-week").value);
+            var numWeeks = calculateNumWeeks();
+            return feePerDay * numDaysPerWeek * numWeeks;
+        }
+
+        function calculateNumWeeks() {
+            var startDate = new Date(document.getElementById("start-date").value);
+            var endDate = new Date(document.getElementById("end-date").value);
+            var timeDiff = Math.abs(endDate.getTime() - startDate.getTime());
+            var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24)); 
+            var numWeeks = Math.ceil(diffDays / 7);
+            return numWeeks;
+        }
+
+        function generateInvoiceCode() {
+            // Mô phỏng mã hóa đơn (có thể thay đổi theo nhu cầu)
+            var timestamp = Date.now().toString();
+            var randomDigits = Math.floor(Math.random() * 1000).toString().padStart(3, '0');
+            return 'INV-' + timestamp + '-' + randomDigits;
+        }
+    </script>
+</body>
+</html>
