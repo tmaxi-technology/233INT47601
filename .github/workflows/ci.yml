@@ -1,23 +1,20 @@
-name: Test CI
-
+name: CT
 on:
   push:
     branches:
       - 211A290062_201A290013_201A010252'
+
   pull_request:
     branches:
       - 211A290062_201A290013_201A010252'
 
 jobs:
-  build:
+  build: 
     runs-on: ubuntu-latest
 
-    steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+    steps:    
+    - name: Display notification 1
+      run: echo " Chúng tôi là nhóm 211A290062_201A290013_201A010252"
     
-    - name: hien thi thong bao 1
-      run: echo " chúng tôi là 211A290062_201A290013_201A010252"
-    
-    - name: hien thi thong bao 2s
-      run: git clone https://github.com/tmaxi-technology/AppliedBioinformatics2023.git
+    - name: Display notification 2
+      run: echo " Đây là bài buổi cuối cùng của HP "
