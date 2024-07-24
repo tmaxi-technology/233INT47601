@@ -3,10 +3,10 @@ name: Test CI
 on:
   push:
     branches:
-      - main
+      - 211A290062_201A290013_201A010252'
   pull_request:
     branches:
-      - main
+      - 211A290062_201A290013_201A010252'
 
 jobs:
   build:
@@ -17,7 +17,7 @@ jobs:
       uses: actions/checkout@v2
     
     - name: hien thi thong bao 1
-      run: echo "211A290062_201A290013_201A010252"
+      run: echo " chúng tôi là 211A290062_201A290013_201A010252"
     
     - name: hien thi thong bao 2s
       run: git clone https://github.com/tmaxi-technology/AppliedBioinformatics2023.git
