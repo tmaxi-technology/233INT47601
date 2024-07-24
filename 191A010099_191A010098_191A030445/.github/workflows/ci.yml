@@ -1,0 +1,23 @@
+name: CI
+on:
+  push:
+    branches:
+      - 191A010099_191A010098
+
+  pull_request:
+    branches:
+      - 191A010099_191A010098
+
+jobs:
+  build: 
+    runs-on: ubuntu-latest
+
+    steps:    
+      - name: Display notification 1
+        run echo "Hello Long!"
+      
+      - name: Display notification 2
+        run echo "Hello Nguyen!"
+      
+      - name: Display notification 3
+        run echo "Hello Wind!"
