@@ -3,7 +3,6 @@ Trần Nam Tân
 git: trannamtan101001@gmail.com
 
 Lê Hồng Thanh
-191A010041..............
+191A010041
 git: 
-
 
