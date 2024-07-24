@@ -1,0 +1,23 @@
+name: Test CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+    
+    - name: hien thi thong bao 1
+      run: echo "211A290062_201A290013_201A010252"
+    
+    - name: hien thi thong bao 2s
+      run: git clone https://github.com/tmaxi-technology/AppliedBioinformatics2023.git
