@@ -15,7 +15,7 @@ def test_registration_success():
     student_id_input = driver.find_element(By.ID, 'student-id')
     course_select = driver.find_element(By.ID, 'course')
     
-    name_input.send_keys('Nguyễn Văn A')
+    name_input.send_keys('Huynh Nam Thuan')
     student_id_input.send_keys('123456')
     course_select.send_keys('Toán')
     
@@ -28,7 +28,7 @@ def test_registration_success():
 
     # Kiểm tra thông báo thành công
     message = driver.find_element(By.ID, 'message').text
-    assert message == 'Đăng ký thành công! Nguyễn Văn A đã đăng ký môn Toán.'
+    assert message == 'Đăng ký thành công! Huynh Nam Thuan đã đăng ký môn Toán.'
 
 def test_registration_failure():
     driver.get('file:///path/to/your/index.html')  # Đổi đường dẫn tới tệp HTML của bạn
