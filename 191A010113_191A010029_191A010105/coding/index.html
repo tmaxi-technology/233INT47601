@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ĐĂNG KÍ MÔN HỌC</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.js">
+
+</head>
+<body>
+    <div class="container">
+        <h2>Đăng kí môn học</h2>
+        <form id="course-registration-form">
+            <div class="input-group">
+                <label for="course-name">Tên môn học:</label>
+                <select id="course-name" name="course-name" onchange="showCourseCode()" required>
+                    <option value="">Chọn môn học</option>
+                    <option value="Toán">Toán</option>
+                    <option value="Khoa Học">Khoa học</option>
+                    <option value="Lịch sử">Lịch sử</option>
+                    <option value="Hóa">Hóa</option>
+                    <option value="Văn">Văn</option>
+                    <option value="Lý">Lý</option>
+                    <!-- Thêm các tùy chọn khác tùy theo nhu cầu -->
+                </select>
+            </div>
+            <div class="input-group">
+                <label for="course-code">Mã môn học:</label>
+                <input type="text" id="course-code" name="course-code" readonly>
+            </div>
+            <div class="input-group">
+                <label for="teacher">Giáo viên:</label>
+                <select id="teacher" name="teacher" required>
+                    <option value="">Chọn giáo viên</option>
+                    <option value="teacher1">GV 1</option>
+                    <option value="teacher2">GV 2</option>
+                    <option value="teacher3">GV 3</option>
+
+                </select>
+            </div>
+            <div class="input-group">
+                <label for="start-date">Ngày bắt đầu:</label>
+                <input type="date" id="start-date" name="start-date" required>
+            </div>
+            <div class="input-group">
+                <label for="end-date">Ngày kết thúc:</label>
+                <input type="date" id="end-date" name="end-date" required>
+            </div>
+            <div class="input-group">
+                <label for="fee-per-day">Giá tiền (VNĐ/ngày):</label>
+                <input type="text" id="fee-per-day" name="fee-per-day" value="" >
+            </div>
+            <div class="input-group">
+                <label for="num-days-per-week">Số ngày/tuần:</label>
+                <select id="num-days-per-week" name="num-days-per-week" required>
+                    <option value="">Chọn số ngày/tuần</option>
+                    <option value="1">1 ngày/tuần</option>
+                    <option value="2">2 ngày/tuần</option>
+                    <option value="3">3 ngày/tuần</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <label for="address">Địa chỉ:</label>
+                <textarea id="address" name="address" rows="2" required></textarea>
+            </div>
+            <div class="input-group">
+                <label for="description">Mô tả:</label>
+                <textarea id="description" name="description" rows="4" required></textarea>
+            </div>
+            <button type="button" onclick="generateInvoice()">Đăng kí</button>
+        </form>
+    </div>
+
+    <div class="invoice-preview" id="invoice-preview">
+    </div>
+    
+</body>
+</html>
