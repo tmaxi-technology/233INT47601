@@ -33,13 +33,13 @@ function generateInvoice() {
     var invoicePreview = document.getElementById("invoice-preview");
     invoicePreview.innerHTML = `
         <h2>Hóa đơn</h2>
-        <p><strong>Mã hóa đơn:</strong> ${generateInvoiceCode()}</p>
-        <p><strong>Môn học:</strong> ${courseName}</p>
-        <p><strong>Mã môn học:</strong> ${courseCode}</p>
-        <p><strong>Tổng giá tiền:</strong> ${totalPrice.toLocaleString("vi-VN")} VNĐ</p>
-        <p><strong>Ngày bắt đầu:</strong> ${startDate}</p>
-        <p><strong>Ngày kết thúc:</strong> ${endDate}</p>
-        <p><strong>Giáo viên:</strong> ${teacher}</p>
+        <p><strong>Mã Hóa Đơn:</strong> ${generateInvoiceCode()}</p>
+        <p><strong>Môn Học :</strong> ${courseName}</p>
+        <p><strong>Mã Môn Học:</strong> ${courseCode}</p>
+        <p><strong>Tổng Giá Tiền:</strong> ${totalPrice.toLocaleString("vi-VN")} VNĐ</p>
+        <p><strong>Ngày Bắt Đầu :</strong> ${startDate}</p>
+        <p><strong>Ngày Kết Thúc:</strong> ${endDate}</p>
+        <p><strong>Giáo Viên:</strong> ${teacher}</p>
     `;
 }
 
