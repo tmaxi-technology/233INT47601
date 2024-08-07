@@ -1,0 +1,23 @@
+name: CT
+on:
+  push:
+    branches:
+      - 191A010098-191A010099-191A03445
+
+  pull_request:
+    branches:
+      - 191A010098-191A010099-191A03445
+
+jobs:
+  build: 
+    runs-on: ubuntu-latest
+
+    steps:    
+    - name: Display notification 1
+      run: echo "Hello KIET"
+    
+    - name: Display notification 2
+      run: echo "Hello Nguyen"
+    
+    - name: Display notification 3
+      run: echo "Hello Thin"
