@@ -1,0 +1,10 @@
+.form-input:not(:placeholder-shown) + .form-label,
+.form-input:focus + .form-label {
+  left: 12px;
+  top: 0px;
+  display: inline-block;
+  background: #fff;
+  padding: 0 2px;
+  color: --colorTextDark;
+  font-size: 0.8rem;
+}

@@ -1,0 +1,80 @@
+.input-search {
+  width: 100%;
+  padding: 3px 10px;
+  color: black;
+  outline: none;
+}
+
+.btn-search svg {
+  font-size: 20px;
+}
+
+.btn-search {
+  background: var(--header-button-search);
+  text-align: center;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  font-weight: 700;
+  line-height: 3;
+  transition: all 0.5s ease-in-out;
+  padding: 6px 25px;
+  color: white;
+  border-radius: 4px;
+}
+
+.icon-cart {
+  color: gray;
+  font-size: 30px;
+}
+
+.quantity-cart:before {
+  content: attr(data-order);
+  position: absolute;
+  top: -10%;
+  right: -20%;
+  background-color: var(--header-cart-bg-before);
+  color: white;
+  border-radius: 50%;
+  font-size: 0.8rem;
+  z-index: 1;
+  height: 20px;
+  width: 20px;
+}
+
+.item-navbar:hover {
+  background: var(--header-hover-bg-item-navbar);
+}
+
+ul.item-navbar:hover > ul.sub-navbar {
+  display: flex;
+}
+
+.item-navbar:hover::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 3px;
+  background: var(--header-hover-before-item-navbar);
+}
+
+@media only screen and (max-width: 1024px) {
+  .btn-search {
+    background: none;
+    color: black;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .icon-cart {
+    font-size: 25px;
+  }
+  .quantity-cart:before {
+    font-size: 0.8rem;
+    line-height: 1.1;
+    height: 15px;
+    width: 15px;
+  }
+}

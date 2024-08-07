@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* 5 màu main */
+  --seal-brow: #a2620a;
+  --brow: #972d07;
+  --tomato: #ff4b3e;
+  --selective-yello: #120f0a;
+  --maize: #ffe548;
+  /* 5 màu main */
+
+  --bg-navbar: #a2620a;
+
+  --header-bg-main: #e2e2e2;
+  --header-text-danger: #d5461f;
+  --header-cart-bg-before: #972d07;
+  --header-button-search: #a2620a;
+  --header-border-button-search: #a2620a;
+  --header-button-bg-login: #ffb20f;
+  --header-focus-outline: #ffb20f;
+  --header-hover-items: #e2e2e2;
+  --header-hover-text: #a2620a;
+  --header-hover-bg-item-navbar: #f3f5fc;
+  --header-hover-before-item-navbar: #a2620a;
+
+  --footer-text-main: #000000;
+  --footer-text: #ffffff;
+  --footer-border-input: #a2620a;
+  --footer-bg-input: #ffffff;
+  --footer-bg-form: #a2630ab6;
+  --footer-bg-button: #a2620a;
+
+  --home-bg-main: #e2e2e2;
+
+  --shop-text-white: #ffffff;
+  --shop-text-black: #000000;
+  --shop-bg-button: #f9bb01;
+  --shop-bg-button-light: #ffffff;
+
+  --detail-border-primary: #a2630ab6;
+  --detail-text-primary: #a2630ab6;
+  --detail-bg-primary: #a2630ab6;
+  --detail-hover-effect-button: #a2620a;
+  --detail-border-yellow: #ffb20f;
+
+  --card-product-bg: #ffffff;
+  --card-product-text-price: #972d07;
+  --card-product-text-discount: #ffffff;
+  --card-product-text-name: #a2620a;
+  --card-product-bg-discount: #a2620a;
+  --card-product-bg-button: #a2620a;
+  --card-product-hover-bg: #a2620a;
+  --card-product-hover-text: #ffffff;
+  --card-product-text: #000000;
+  --card-product-hover-effect-button: #a2620a;
+
+  --form-bg-main: #f5f5f5;
+
+  /* --bgPromotion: #ff0000;
+  --bgText: #d0021c;
+  --bgButtonCart: #263b96;
+  --colorText: #f9bb01;
+  --bgColorAccount: #d9edf7;
+  --shop-color-main: #f9bb01;
+  --detail-text: #ff0000;
+  --detail-bg-hover: #e70505;
+  --checkout-bg-button-blue: #338dbc; */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif !important;
+  background: --form-bg-main !important;
+}
+
+code {
+  font-family: "Quicksand", sans-serif !important;
+}
